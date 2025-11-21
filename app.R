@@ -89,7 +89,6 @@ init_data_storage()
 # =============================================================================
 
 EXPERIENCE_TYPES <- c(
-
   "Work/Productivity",
   "Exercise/Physical",
   "Social/Connection",
