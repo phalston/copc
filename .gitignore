@@ -1,0 +1,26 @@
+# R specific
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Session files
+*.Rproj
+
+# Packrat
+packrat/lib*/
+packrat/src/
+
+# renv
+renv/library/
+renv/local/
+renv/lock/
+renv/staging/
+
+# Shiny apps
+rsconnect/
+
+# Note: data/experiences.csv is tracked for GitHub-based storage
+# If you want to keep your data private, uncomment the line below:
+# data/experiences.csv
