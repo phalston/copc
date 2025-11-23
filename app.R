@@ -435,8 +435,8 @@ server <- function(input, output, session) {
     end_date <- Sys.Date()
     start_date <- switch(
       input$trend_period,
-      "week" = end_date - 7,
-      "month" = end_date - 30,
+      "week" = end_date - days(7),
+      "month" = end_date - days(30),
       "ytd" = floor_date(end_date, "year"),
       "year" = end_date - 365
     )
