@@ -13,7 +13,7 @@ A Shiny app to track personal daily experiences across different times of day.
   - Weekly (last 7 days)
   - Monthly (last 30 days)
   - Year to Date
-  - Full Year (last 12 months)
+  - Last 12 Months
 - **History View**: Filter and browse all logged experiences
 
 ## Experience Types
