@@ -438,7 +438,7 @@ server <- function(input, output, session) {
       "week" = end_date - days(7),
       "month" = end_date - days(30),
       "ytd" = floor_date(end_date, "year"),
-      "year" = end_date - 365
+      "year" = end_date - years(1)
     )
 
     filtered <- df %>%
