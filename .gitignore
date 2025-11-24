@@ -17,6 +17,7 @@ renv/library/
 renv/local/
 renv/lock/
 renv/staging/
+renv/
 
 # Shiny apps
 rsconnect/
@@ -24,3 +25,6 @@ rsconnect/
 # Note: data/experiences.csv is tracked for GitHub-based storage
 # If you want to keep your data private, uncomment the line below:
 # data/experiences.csv
+
+.posit/
+generate_data.py
